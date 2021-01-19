@@ -1,10 +1,12 @@
 package io.github.huobidev.qinjinwei;
 
+import io.github.huobidev.Order;
+
 public interface Producer {
 
 
-    // add your interface method here
+    void send(Order order);
 
-    // and then implement it
+    void close();
 
 }

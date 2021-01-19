@@ -3,8 +3,8 @@ package io.github.huobidev.qinjinwei;
 public interface Consumer {
 
 
-    // add your interface method here
+    void consumerOrder();
 
-    // and then implement it
+    void close();
 
 }
